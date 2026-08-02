@@ -1,0 +1,4 @@
+interface:
+  display_name: "自定义角色配图"
+  short_description: "用任意三视图创建你自己的中文角色配图 skill 与 demo"
+  default_prompt: "Use $custom-character-illustrations with this 3-view reference to create my own character illustration skill."

@@ -8,10 +8,11 @@
   <a href="https://www.douyin.com/user/MS4wLjABAAAAHH81Iv6MWugNS03rPOnWulSnhRbM26Ud_S16rlgqOfY4nR8bznDSWbFIcviihJJm"><img src="https://cdn.simpleicons.org/tiktok/111111" alt="抖音" width="32" height="32"></a>&nbsp;&nbsp;&nbsp;
   <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212a"><img src="https://cdn.simpleicons.org/xiaohongshu/E60023" alt="小红书" width="32" height="32"></a>&nbsp;&nbsp;&nbsp;
   <a href="https://x.com/xDylanLong"><img src="https://cdn.simpleicons.org/x/111111" alt="X / Twitter" width="32" height="32"></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://looda.cc"><img src="https://cdn.simpleicons.org/googlechrome/4285F4" alt="个人网页 looda.cc" width="32" height="32"></a>
+  <a href="https://looda.cc"><img src="https://cdn.simpleicons.org/googlechrome/4285F4" alt="个人网页 looda.cc" width="32" height="32"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/helloianneo/ian-xiaohei-illustrations"><img src="https://cdn.simpleicons.org/github/181717" alt="致敬原仓库" width="32" height="32"></a>
 </p>
 
-<p align="center"><sub><a href="https://www.douyin.com/user/MS4wLjABAAAAHH81Iv6MWugNS03rPOnWulSnhRbM26Ud_S16rlgqOfY4nR8bznDSWbFIcviihJJm">抖音</a> · <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212a">小红书</a> · <a href="https://x.com/xDylanLong">X / Twitter</a> · <a href="https://looda.cc">looda.cc</a></sub></p>
+<p align="center"><sub><a href="https://www.douyin.com/user/MS4wLjABAAAAHH81Iv6MWugNS03rPOnWulSnhRbM26Ud_S16rlgqOfY4nR8bznDSWbFIcviihJJm">抖音</a> · <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212a">小红书</a> · <a href="https://x.com/xDylanLong">X / Twitter</a> · <a href="https://looda.cc">looda.cc</a> · <a href="https://github.com/helloianneo/ian-xiaohei-illustrations">致敬原仓库</a></sub></p>
 
 ---
 
@@ -100,6 +101,26 @@ Copy-Item -Recurse -Force .\xiao-gecko-illustrations (Join-Path $skillRoot "xiao
 Use $xiao-gecko-illustrations 为这篇中文内容生成一张小 gecko 正文配图。
 ```
 
+### 可选：安装自定义角色配图 skill
+
+如果你不想使用小 gecko，可以只安装仓库里的 `custom-character-illustrations`。它会接收你上传的任意角色三视图，生成一套独立的个人角色配图 skill；不会修改小 gecko skill。
+
+```bash
+cp -R ./custom-character-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
+```
+
+然后上传一张正面/侧面/背面三视图，在 Codex 中使用：
+
+```text
+Use $custom-character-illustrations。
+我上传了一张原创角色三视图，请基于它创建一个独立的个人角色配图 skill。
+保留 16:9、纯白手绘、留白和怪诞隐喻的方法，但不要使用小黑或小 gecko。
+角色名：小火苗
+请生成 skill 文件、角色规范、提示词模板、QA checklist，并做一张 demo。
+```
+
+这个可选 skill 默认会创建 `custom-<角色名>-illustrations/`，并打包三视图、角色 DNA、提示词模板、质检规则和安装说明。
+
 ## 常用用法
 
 ### 先做 shot list，不生图
@@ -165,6 +186,18 @@ Use $xiao-gecko-illustrations 把这周的内容实验画成一张图：
         └── style-dna.md
 ```
 
+可选的角色工厂 skill 位于：
+
+```text
+custom-character-illustrations/
+├── SKILL.md
+├── agents/openai.yaml
+└── references/
+    ├── character-dna-template.md
+    ├── custom-skill-template.md
+    └── qa-checklist.md
+```
+
 ## 使用边界
 
 - 它适合正文认知锚点，不适合商业 KV、完整海报或高密度数据图。
@@ -177,4 +210,3 @@ Use $xiao-gecko-illustrations 把这周的内容实验画成一张图：
 本项目采用 [MIT License](LICENSE)。
 
 小 gecko 角色参考图与 demo 图由本项目作者提供或生成。方法论部分参考了 [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations)，但本项目的角色、资产、demo、prompts 和 README 已重新组织。详细说明见 [NOTICE.md](NOTICE.md)。
-
