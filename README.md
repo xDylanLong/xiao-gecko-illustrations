@@ -46,6 +46,8 @@
 
 ```text
 Use $custom-character-illustrations。
+参考仓库：https://github.com/xDylanLong/xiao-gecko-illustrations
+请使用这个仓库里的 custom-character-illustrations skill；如果尚未安装，请先按仓库 README 安装。
 请用我上传的三视图，创建一个专属角色配图 skill。
 角色名：我的角色
 ```
@@ -78,17 +80,46 @@ Use $custom-character-illustrations。
 
 ![内容入口实验](examples/images/01-content-entrance-experiment.png)
 
+```text
+Use $xiao-gecko-illustrations 直接生成一张 16:9 横版中文正文配图，不要先输出 shot list。
+
+主题：本周内容实验要同时优化小红书封面点击率和抖音前 2 秒留存，并找到下周可以复制的结构，同时记录制作时间。
+核心隐喻：小 gecko 正在拧开一扇内容入口的两道门闩，上面标“封面 15%”，下面标“前2秒 <30%”；门后只保留“可复制”和“制作时间”两个短标注。
+
+要求：纯白背景、黑色手绘线稿、大量留白、少量红橙蓝手写批注；小 gecko 必须做核心动作；只讲这一个隐喻，不要 PPT、正式流程图或复杂文字。
+```
+
 ### 从功能堆到用户结果
 
 小 gecko 用一把锯子削掉多余功能，再把一条清晰路径搭向用户结果。
 
 ![从功能堆到用户结果](examples/images/02-product-feature-pile.png)
 
+```text
+Use $xiao-gecko-illustrations 直接生成一张 16:9 横版中文正文配图，不要先输出 shot list。
+
+主题：产品不是功能堆，而是让用户更快到达一个结果。
+构图：画面左侧是一堆快要倒塌的功能零件，右侧是一个清晰、可抵达的用户结果；小 gecko 用一个奇怪但成立的低科技动作，削掉多余功能并搭出一条清晰路径。
+标注：只保留“功能堆”和“用户结果”两个短标注。
+
+要求：纯白背景、黑色手绘线稿、大量留白、少量红橙蓝手写批注；小 gecko 必须承担核心动作；只讲“从功能堆到用户结果”，不要 PPT、正式流程图或复杂文字。
+```
+
 ### 发布到反馈回流
 
 小 gecko 摇动反馈井，让发布之后的反馈回到下一条内容里。
 
 ![发布到反馈回流](examples/images/03-content-feedback-loop.png)
+
+```text
+Use $xiao-gecko-illustrations 直接生成一张 16:9 横版中文正文配图，不要先输出 shot list。
+
+主题：内容发出去不是结束，反馈要回到下一条内容里。
+构图：发出的内容落入一个奇怪的手绘反馈装置，小 gecko 亲自摇动装置，让反馈回到下一条内容的入口，形成一个清晰但不正式的回流关系。
+标注：只保留“发布”“反馈”“下一条”三个短标注。
+
+要求：纯白背景、黑色手绘线稿、大量留白、少量红橙蓝手写批注；不要使用传送带、素材鱼或正式流程图；小 gecko 必须参与核心动作；只讲这一个回流隐喻，不要 PPT 或复杂文字。
+```
 
 这些 demo 是工作方式的示范，不是固定构图。每次使用都应根据当前内容重新发明隐喻。
 
