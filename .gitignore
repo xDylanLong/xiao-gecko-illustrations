@@ -5,3 +5,5 @@ dist/
 tmp/
 *.log
 
+# Workspace-generated output; public demos live under examples/images/.
+/assets/
