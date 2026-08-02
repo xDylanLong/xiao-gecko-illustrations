@@ -1,98 +1,87 @@
 # 小gecko 配图
 
-> 把中文文章里的判断、流程、状态和隐喻，变成一张张白底、手绘、怪诞但清爽的正文配图。
+> 一只奶油色 gecko，专门把中文内容里的抽象判断，变成读者一眼能看懂的怪诞手绘图。
 >
-> 16:9 横版 | 小 gecko IP | 纯白手绘 | 少量红橙蓝中文批注 | Codex Skill
+> 16:9 横版 · 纯白手绘 · 认知锚点 · 可复用隐喻 · Codex Skill
+
+<p align="center">
+  <a href="https://www.douyin.com/user/MS4wLjABAAAAHH81Iv6MWugNS03rPOnWulSnhRbM26Ud_S16rlgqOfY4nR8bznDSWbFIcviihJJm"><img src="https://cdn.simpleicons.org/tiktok/111111" alt="抖音" width="32" height="32"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212a"><img src="https://cdn.simpleicons.org/xiaohongshu/E60023" alt="小红书" width="32" height="32"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://x.com/xDylanLong"><img src="https://cdn.simpleicons.org/x/111111" alt="X / Twitter" width="32" height="32"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://looda.cc"><img src="https://cdn.simpleicons.org/googlechrome/4285F4" alt="个人网页 looda.cc" width="32" height="32"></a>
+</p>
+
+<p align="center"><sub><a href="https://www.douyin.com/user/MS4wLjABAAAAHH81Iv6MWugNS03rPOnWulSnhRbM26Ud_S16rlgqOfY4nR8bznDSWbFIcviihJJm">抖音</a> · <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212a">小红书</a> · <a href="https://x.com/xDylanLong">X / Twitter</a> · <a href="https://looda.cc">looda.cc</a></sub></p>
 
 ---
 
-## 这个仓库是什么
+## 它解决什么问题
 
-小gecko 配图是一个 Codex Skill，用来指导 AI Agent 为中文文章、帖子、博客、Notion 文档、产品分析、方法论和内容复盘生成正文配图。
+很多内容配图的问题不是“画得不够漂亮”，而是没有把文章里真正重要的那一下画出来：一个判断、一个断点、一个转折，或者一条从想法走到结果的路径。
 
-它不是通用插画 prompt，也不是 PPT 信息图模板。它的核心目标是：先理解内容里的认知锚点，再把其中一个判断、流程、结构、状态或隐喻，变成一张有记忆点的 16:9 手绘解释图。
+小gecko 配图让 AI 先找出那个认知锚点，再为它发明一个低科技、奇怪但成立的物理隐喻。最终输出不是课程页，也不是一堆节点，而是一张读者看一眼就能进入正文的手绘图。
 
-默认视觉 IP 是“小 gecko”：奶油白身体、浅棕斑纹、深色大圆眼、头部尖轮廓、短小四肢和长尾巴。小 gecko 不是吉祥物贴纸，而是正在认真参与系统运转的角色。
+## 这不是原仓库的复制版
 
-一句话：**让 AI 不只是“配一张图”，而是把文章里的一个关键认知动作画出来。**
+这个项目参考了 [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) 的部分工作方法和 README 信息组织方式，但重新设计了：
 
-## 适合谁用
+- 角色：从黑色小怪物改为用户提供的奶油色小 gecko
+- 视觉资产：独立的三视图角色参考、gecko 角色规范和配色规则
+- 内容语气：更偏产品、AI、增长、内容实验和一人公司场景
+- Demo 与 prompts：全部围绕小 gecko 重新生成，不复刻原仓库案例
+- 仓库入口：加入作者的抖音、小红书、X 和个人网页，方便直接分享
 
-特别适合：
+原仓库是方法参考，不是本项目的内容来源或角色资产来源。更完整的致谢与再分发说明见 [NOTICE.md](NOTICE.md)。
 
-- 写中文文章，需要正文配图和文章插图的人
-- 做知识型内容、产品分析、AI 工作流和方法论内容的人
-- 想把抽象判断画成具体隐喻的人
-- 想用一种比 PPT 信息图更轻、更怪、更有个人识别度的风格做内容的人
-- 用 Codex 做内容生产，希望稳定复用一套视觉语言的人
+## 小 gecko 是谁
 
-不适合：
+小 gecko 是一只奶油白、浅棕斑纹、深色大圆眼、头顶尖轮廓、短小四肢、拖着长尾巴的小角色。
 
-- 想要商业插画、品牌 KV 或精致扁平插画的人
-- 想要传统 PPT 信息图、复杂架构图或正式流程图的人
-- 想要儿童卡通、表情包或高密度文字海报的人
-- 需要严格可编辑矢量源文件的人
+它不会站在画面旁边当贴纸，而是负责做那件解释概念的怪事：锯掉功能堆、拧开内容入口、摇动反馈井、把抽象东西塞进一个能工作的机器里。
 
-## 它会产出什么
+角色参考图在这里：[gecko-reference.png](xiao-gecko-illustrations/assets/gecko-reference.png)。
 
-默认输出：
+## 三条设计原则
 
-- 16:9 横版正文配图
-- 一篇文章的 4-8 张 shot list
-- 每张图的主题、核心意思、结构类型、小 gecko 动作和中文标注建议
-- 最终 PNG 图片，保存到 workspace 的 `assets/<article-slug>-illustrations/`
+### 1. 一张图只讲一个动作
 
-默认不输出：
+不要把整篇文章压进一张图。先选一个读者应该记住的动作，再删掉其他解释。
 
-- PPTX / PDF / Keynote
-- SVG / HTML / Canvas 可编辑图
-- 商业海报或品牌封面 KV
-- 把整篇文章塞进一张图的大段文字信息图
+### 2. 角色必须参与运转
 
-## 视觉风格
+如果去掉小 gecko，画面仍然完全成立，说明角色只是装饰。小 gecko 要推、拉、拧、扛、修、捞、记录，或者认真地卡在某个系统里。
 
-- 纯白背景，不要纸纹、米色、阴影、渐变或噪点
-- 黑色/深棕色手绘线稿，细线，轻微抖动
-- 大量留白，主体约占画面 40%-60%
-- 少量红色、橙色、蓝色中文手写批注
-- 一张图只表达一个核心动作、结构、状态或隐喻
-- 小 gecko 必须参与核心动作，不能只是站在角落里
-- 怪诞、有创意、清爽，但不幼稚、不做成普通动物插画
+### 3. 怪，但要在一秒内看懂
 
-## 示例效果
+白底、少字、留白和一个奇怪物件负责制造记忆点；短标注和清晰动线负责让读者迅速理解。
+
+## Demo
 
 ### 内容入口实验
 
-把封面点击率、前 2 秒留存、可复制结构和制作时间画成同一个“内容入口”的四个短标记。
+把封面点击率、前 2 秒留存、可复制结构和制作时间画成同一个入口的四个短标记。
 
 ![内容入口实验](examples/images/01-content-entrance-experiment.png)
 
 ### 从功能堆到用户结果
 
-小 gecko 用锯子削掉多余功能，再把一条清晰的用户路径搭出来。
+小 gecko 用一把锯子削掉多余功能，再把一条清晰路径搭向用户结果。
 
 ![从功能堆到用户结果](examples/images/02-product-feature-pile.png)
 
 ### 发布到反馈回流
 
-小 gecko 摇动反馈井，让发布后的反馈回到下一条内容里。
+小 gecko 摇动反馈井，让发布之后的反馈回到下一条内容里。
 
 ![发布到反馈回流](examples/images/03-content-feedback-loop.png)
 
-这些图片是 demo 和风格校准样例，不是构图模板。使用时应该从当前内容重新发明隐喻，不要照抄示例中的物件和布局。
+这些 demo 是工作方式的示范，不是固定构图。每次使用都应根据当前内容重新发明隐喻。
 
-## 安装
-
-克隆仓库：
+## 怎么安装
 
 ```bash
 git clone https://github.com/xDylanLong/xiao-gecko-illustrations.git
 cd xiao-gecko-illustrations
-```
-
-复制 skill 到 Codex skills 目录：
-
-```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
 cp -R ./xiao-gecko-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
@@ -105,63 +94,53 @@ New-Item -ItemType Directory -Force -Path $skillRoot | Out-Null
 Copy-Item -Recurse -Force .\xiao-gecko-illustrations (Join-Path $skillRoot "xiao-gecko-illustrations")
 ```
 
-安装后，在 Codex 里使用：
+安装后，在 Codex 中直接调用：
 
 ```text
-Use $xiao-gecko-illustrations 为这篇中文文章设计并生成 5 张小 gecko 正文配图。
+Use $xiao-gecko-illustrations 为这篇中文内容生成一张小 gecko 正文配图。
 ```
 
-## 怎么用
+## 常用用法
 
-### 只做配图规划
+### 先做 shot list，不生图
 
 ```text
 Use $xiao-gecko-illustrations 先不要生图。
-请分析下面这篇文章哪里值得配图，输出 5 张左右的 shot list。
-每张图写清楚：放在哪段后、主题、核心意思、结构类型、小 gecko 在做什么、建议中文标注词。
+请从下面文章里找出 5 个最值得视觉化的认知锚点。
+每个锚点写：放在哪段后、核心意思、构图类型、小 gecko 的动作、3-5 个短标注。
 
 <粘贴文章>
 ```
 
-### 直接生成正文配图
+### 直接做一张图
 
 ```text
-Use $xiao-gecko-illustrations 把下面这篇文章生成 4 张小 gecko 正文配图。
-要求：16:9 横版、纯白背景、黑色手绘线稿、少量红橙蓝中文手写批注。
-
-<粘贴文章>
+Use $xiao-gecko-illustrations 为“产品不是功能堆，而是让用户更快到达一个结果”生成一张 16:9 横版正文配图。
+要求纯白背景、手绘线稿、少量中文批注，小 gecko 必须承担核心动作。
 ```
 
-### 为单个概念生成一张图
+### 做内容实验复盘图
 
 ```text
-Use $xiao-gecko-illustrations 为“产品不是功能堆，而是让用户更快到达一个结果”生成一张正文配图。
-画面要怪诞但清爽，小 gecko 必须承担核心动作。
-```
-
-### 编辑已有图片
-
-```text
-Use $xiao-gecko-illustrations 帮我编辑这张图，去掉左上角的标题，保留小 gecko、构图和其他文字不变。
+Use $xiao-gecko-illustrations 把这周的内容实验画成一张图：
+小红书封面点击率目标 15%，抖音前 2 秒跳出率低于 30%，找到可复制的封面结构和开头结构，并记录制作时间。
+只保留一个核心隐喻，不要做成 PPT。
 ```
 
 更多可复用 prompts 见 [examples/prompts.md](examples/prompts.md)。
 
-## 工作流程
+## 从正文到成图
 
-这个 skill 的流程是：
+1. 读取文章、帖子、Markdown、截图或一个明确主题
+2. 找出认知转折、输入输出、断点、前后状态或承接关系
+3. 只选一个认知锚点，必要时先给出 shot list
+4. 选择一种结构：概念隐喻、前后对比、系统局部、方法分层、地图路线或小漫画
+5. 为当前内容发明一个低科技物件，并让小 gecko 做核心动作
+6. 用内置图像模型逐张生成，不把多张图拼成一张
+7. 检查角色、白底、留白、短文字和非 PPT 感
+8. 把最终 PNG 保存到 workspace 的 `assets/<article-slug>-illustrations/`
 
-1. 读取文章、Markdown、Notion 内容、截图或用户给的主题
-2. 提炼核心观点、认知转折、流程结构和适合视觉化的段落
-3. 先输出 shot list：每张图只选一个认知锚点
-4. 为每张图选择一种结构：Workflow、系统局部、前后对比、角色状态、概念隐喻、方法分层、地图路线或小漫画分镜
-5. 重新发明一个低科技、怪诞但成立的物理隐喻
-6. 让小 gecko 承担核心动作，并参考仓库内的三视图角色资产
-7. 每张图单独调用图像模型生成
-8. 按 QA checklist 检查：白底、留白、角色动作、中文标注、非 PPT 感、非旧案例复刻
-9. 保存最终 PNG，并报告用途和路径
-
-## 目录结构
+## 仓库结构
 
 ```text
 .
@@ -176,10 +155,8 @@ Use $xiao-gecko-illustrations 帮我编辑这张图，去掉左上角的标题�
 │   └── prompts.md
 └── xiao-gecko-illustrations/
     ├── SKILL.md
-    ├── agents/
-    │   └── openai.yaml
-    ├── assets/
-    │   └── gecko-reference.png
+    ├── agents/openai.yaml
+    ├── assets/gecko-reference.png
     └── references/
         ├── composition-patterns.md
         ├── gecko-ip.md
@@ -188,27 +165,16 @@ Use $xiao-gecko-illustrations 帮我编辑这张图，去掉左上角的标题�
         └── style-dna.md
 ```
 
-真正需要安装到 Codex 的是子目录：
+## 使用边界
 
-```text
-xiao-gecko-illustrations/
-```
+- 它适合正文认知锚点，不适合商业 KV、完整海报或高密度数据图。
+- 中文文字越短越稳定；出现错字时优先删字，不要继续堆提示词。
+- Demo 只校准风格密度和角色参与方式，不应被当成固定模板。
+- 每张图的实际生成额度取决于当前 Codex / 图像模型环境，本仓库不承诺固定点数或金额。
 
-根目录的 README、License、Notice 和 examples 是 GitHub 分享文档。
-
-## 注意事项
-
-- 图片里的中文文字越短越稳定。
-- 每张图只讲一个核心结构，不要把文章做成说明书。
-- 小 gecko 必须承担核心动作；如果去掉它画面仍然完全成立，说明角色太装饰了。
-- 示例图只用于校准线条密度、留白、颜色克制和角色参与方式，不要复刻构图。
-- AI 图像模型可能出现错字、幻觉标签、风格漂移或多余标题，生成后需要检查。
-- 如果中文错字严重，优先减少标注词并重生成。
-- 每张图的实际图像生成额度取决于所使用的 Codex / 图像模型环境；本 skill 不承诺固定点数或金额。
-
-## License
+## License 与致谢
 
 本项目采用 [MIT License](LICENSE)。
 
-角色参考图和 demo 素材的来源、致谢与再分发说明见 [NOTICE.md](NOTICE.md)。
+小 gecko 角色参考图与 demo 图由本项目作者提供或生成。方法论部分参考了 [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations)，但本项目的角色、资产、demo、prompts 和 README 已重新组织。详细说明见 [NOTICE.md](NOTICE.md)。
 
