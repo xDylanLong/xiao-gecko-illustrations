@@ -42,8 +42,16 @@
 
 本仓库也提供了一个可选 skill：上传一张三视图替换默认形象，定制属于你自己的配图 skill。
 
+最简单的用法：上传三视图，然后复制这段话：
+
+```text
+Use $custom-character-illustrations。
+请用我上传的三视图，创建一个专属角色配图 skill。
+角色名：我的角色
+```
+
 <p align="center">
-  <img src="xiao-gecko-illustrations/assets/gecko-reference.png" alt="小 gecko 三视图参考" width="620">
+  <img src="xiao-gecko-illustrations/assets/gecko-reference.png" alt="小 gecko 三视图参考" width="460">
   <br>
   <sub>三视图是角色形象的输入，也可以替换成你自己的三视图</sub>
 </p>
