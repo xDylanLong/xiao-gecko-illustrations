@@ -26,7 +26,15 @@
 
 ## 小 gecko 是谁
 
-小 gecko 是一只奶油白、浅棕斑纹、深色大圆眼、头顶尖轮廓、短小四肢、拖着长尾巴的小角色。
+小 gecko 的原型是我的宠物壁虎“小睫毛”。这里的插画角色保留了它的大眼、浅棕色体态和认真观察的气质，再把它转成可以参与产品、内容和生意隐喻的角色。
+
+<p align="center">
+  <img src="readme-assets/xiaojiewei-original.jpg" alt="我的宠物小睫毛" width="220">
+  <br>
+  <sub>我的宠物“小睫毛”原图</sub>
+</p>
+
+在配图里，小 gecko 是一只奶油白、浅棕斑纹、深色大圆眼、头顶尖轮廓、短小四肢、拖着长尾巴的小角色。
 
 它不会站在画面旁边当贴纸，而是负责做那件解释概念的怪事：锯掉功能堆、拧开内容入口、摇动反馈井、把抽象东西塞进一个能工作的机器里。
 
@@ -93,23 +101,33 @@ Use $xiao-gecko-illustrations 为这篇中文内容生成一张小 gecko 正文�
 
 ### 可选：安装自定义角色配图 skill
 
-如果你不想使用小 gecko，可以只安装仓库里的 `custom-character-illustrations`。它会接收你上传的任意角色三视图，生成一套独立的个人角色配图 skill；不会修改小 gecko skill。
+如果你想把自己的宠物、吉祥物或原创角色变成配图主角，可以只安装仓库里的 `custom-character-illustrations`。它会接收你上传的任意角色三视图，生成一套独立的个人角色配图 skill；不会修改小 gecko skill。
 
 ```bash
 cp -R ./custom-character-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
-然后上传一张正面/侧面/背面三视图，在 Codex 中使用：
+#### 用宠物原图生成三视图，再创建自己的 skill
+
+以“小睫毛”为例，可以先把宠物原图上传给 ChatGPT，请它整理成适合做角色设定的三视图。下面这段提示词可以直接复制：
+
+```text
+请根据这张宠物照片生成一张干净白底的角色三视图参考图：正面、侧面、背面。
+保持它真实的物种、体型、花纹、眼睛、尾巴和主要识别特征，不要增加服装、装饰、文字或场景。
+三个视图要放在同一张图里，比例一致、姿态清楚，方便后续制作角色配图 skill。
+```
+
+拿到三视图后，把它上传到 Codex，再使用这个可选 skill：
 
 ```text
 Use $custom-character-illustrations。
-我上传了一张原创角色三视图，请基于它创建一个独立的个人角色配图 skill。
+我上传了一张宠物“小睫毛”的三视图，请基于它创建一个独立的个人角色配图 skill。
 保留 16:9、纯白手绘、留白和怪诞隐喻的方法，但不要使用小黑或小 gecko。
-角色名：小火苗
+角色名：小睫毛
 请生成 skill 文件、角色规范、提示词模板、QA checklist，并做一张 demo。
 ```
 
-这个可选 skill 默认会创建 `custom-<角色名>-illustrations/`，并打包三视图、角色 DNA、提示词模板、质检规则和安装说明。
+这个可选 skill 默认会创建 `custom-<角色名>-illustrations/`，例如 `custom-xiaojiewei-illustrations/`，并打包三视图、角色 DNA、提示词模板、质检规则和安装说明。安装新 skill 后，就可以用 `$custom-xiaojiewei-illustrations` 生成属于自己的角色配图。
 
 ## 常用用法
 
