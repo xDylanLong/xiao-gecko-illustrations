@@ -13,7 +13,7 @@
   <a href="https://looda.cc">个人主页</a>
 </p>
 <p align="center">
-  致谢 <a href="https://github.com/helloianneo/ian-xiaohei-illustrations">Ian Xiaohei Illustrations 原仓库</a>
+  <a href="https://github.com/helloianneo/ian-xiaohei-illustrations"><img src="https://img.shields.io/badge/%E8%87%B4%E8%B0%A2_%E5%8E%9F%E4%BB%93%E5%BA%93-181717?style=for-the-badge&logo=github&logoColor=white" alt="致谢原仓库" height="28"></a>
 </p>
 
 ---
