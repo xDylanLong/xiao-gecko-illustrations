@@ -5,34 +5,26 @@
 > 16:9 横版 · 纯白手绘 · 认知锚点 · 可复用隐喻 · Codex Skill
 
 <p align="center">
-  <a href="https://www.douyin.com/user/MS4wLjABAAAAHH81Iv6MWugNS03rPOnWulSnhRbM26Ud_S16rlgqOfY4nR8bznDSWbFIcviihJJm"><img src="https://cdn.simpleicons.org/tiktok/111111" alt="抖音" width="32" height="32"></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212a"><img src="https://cdn.simpleicons.org/xiaohongshu/E60023" alt="小红书" width="32" height="32"></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://x.com/xDylanLong"><img src="https://cdn.simpleicons.org/x/111111" alt="X / Twitter" width="32" height="32"></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://looda.cc"><img src="https://cdn.simpleicons.org/googlechrome/4285F4" alt="个人网页 looda.cc" width="32" height="32"></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/helloianneo/ian-xiaohei-illustrations"><img src="https://cdn.simpleicons.org/github/181717" alt="致敬原仓库" width="32" height="32"></a>
+  <a href="https://www.douyin.com/user/MS4wLjABAAAAHH81Iv6MWugNS03rPOnWulSnhRbM26Ud_S16rlgqOfY4nR8bznDSWbFIcviihJJm"><img src="https://img.shields.io/badge/%E6%8A%96%E9%9F%B3-%E5%85%B3%E6%B3%A8%E6%88%91-fe2c55?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=fe2c55" alt="抖音" height="28"></a>&nbsp;
+  <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212a"><img src="https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-%E5%85%B3%E6%B3%A8%E6%88%91-e60023?style=for-the-badge&logo=xiaohongshu&logoColor=white&labelColor=e60023" alt="小红书" height="28"></a>&nbsp;
+  <a href="https://x.com/xDylanLong"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-%E5%85%B3%E6%B3%A8%E6%88%91-111111?style=for-the-badge&logo=x&logoColor=white&labelColor=111111" alt="X / Twitter" height="28"></a>&nbsp;
+  <a href="https://looda.cc"><img src="https://img.shields.io/badge/looda.cc-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-4285f4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=4285f4" alt="个人网页 looda.cc" height="28"></a>&nbsp;
+  <a href="https://github.com/helloianneo/ian-xiaohei-illustrations"><img src="https://img.shields.io/badge/%E8%87%B4%E6%95%AC%E5%8E%9F%E4%BB%93%E5%BA%93-Ian%20Xiaohei-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="致敬原仓库" height="28"></a>
 </p>
 
 <p align="center"><sub><a href="https://www.douyin.com/user/MS4wLjABAAAAHH81Iv6MWugNS03rPOnWulSnhRbM26Ud_S16rlgqOfY4nR8bznDSWbFIcviihJJm">抖音</a> · <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212a">小红书</a> · <a href="https://x.com/xDylanLong">X / Twitter</a> · <a href="https://looda.cc">looda.cc</a> · <a href="https://github.com/helloianneo/ian-xiaohei-illustrations">致敬原仓库</a></sub></p>
 
 ---
 
+## 致谢
+
+感谢 [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) 公开分享中文正文配图的工作方法和实践。小gecko 配图在此基础上继续探索自己的角色、内容场景和视觉资产。
+
 ## 它解决什么问题
 
 很多内容配图的问题不是“画得不够漂亮”，而是没有把文章里真正重要的那一下画出来：一个判断、一个断点、一个转折，或者一条从想法走到结果的路径。
 
 小gecko 配图让 AI 先找出那个认知锚点，再为它发明一个低科技、奇怪但成立的物理隐喻。最终输出不是课程页，也不是一堆节点，而是一张读者看一眼就能进入正文的手绘图。
-
-## 这不是原仓库的复制版
-
-这个项目参考了 [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) 的部分工作方法和 README 信息组织方式，但重新设计了：
-
-- 角色：从黑色小怪物改为用户提供的奶油色小 gecko
-- 视觉资产：独立的三视图角色参考、gecko 角色规范和配色规则
-- 内容语气：更偏产品、AI、增长、内容实验和一人公司场景
-- Demo 与 prompts：全部围绕小 gecko 重新生成，不复刻原仓库案例
-- 仓库入口：加入作者的抖音、小红书、X 和个人网页，方便直接分享
-
-原仓库是方法参考，不是本项目的内容来源或角色资产来源。更完整的致谢与再分发说明见 [NOTICE.md](NOTICE.md)。
 
 ## 小 gecko 是谁
 
@@ -209,4 +201,4 @@ custom-character-illustrations/
 
 本项目采用 [MIT License](LICENSE)。
 
-小 gecko 角色参考图与 demo 图由本项目作者提供或生成。方法论部分参考了 [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations)，但本项目的角色、资产、demo、prompts 和 README 已重新组织。详细说明见 [NOTICE.md](NOTICE.md)。
+小 gecko 角色参考图与 demo 图由本项目作者提供或生成。上游方法与再分发说明见 [NOTICE.md](NOTICE.md)。

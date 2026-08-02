@@ -9,6 +9,9 @@
 原始方法参考：
 
 - [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations)
+- [上游 LICENSE](https://github.com/helloianneo/ian-xiaohei-illustrations/blob/main/LICENSE)
+- [上游 NOTICE](https://github.com/helloianneo/ian-xiaohei-illustrations/blob/main/NOTICE.md)
+
+上游仓库采用 MIT License，允许复制、修改、发布、分发、再许可和商业使用；再分发上游材料时应保留其版权和许可声明。本项目通过本文件、README 的致谢入口以及本仓库的 License 保留相关致谢信息。
 
 本项目不包含 Ian 的“小黑”角色资产；如需使用小黑，请使用原始仓库并遵循其 Notice 与 License。
-
