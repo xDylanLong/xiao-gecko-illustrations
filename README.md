@@ -5,14 +5,12 @@
 > 16:9 横版 · 纯白手绘 · 认知锚点 · 可复用隐喻 · Codex Skill
 
 <p align="center">
-  <a href="https://www.douyin.com/user/MS4wLjABAAAAHH81Iv6MWugNS03rPOnWulSnhRbM26Ud_S16rlgqOfY4nR8bznDSWbFIcviihJJm"><img src="https://img.shields.io/badge/%E6%8A%96%E9%9F%B3-%E5%85%B3%E6%B3%A8%E6%88%91-fe2c55?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=fe2c55" alt="抖音" height="28"></a>&nbsp;
-  <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212a"><img src="https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-%E5%85%B3%E6%B3%A8%E6%88%91-e60023?style=for-the-badge&logo=xiaohongshu&logoColor=white&labelColor=e60023" alt="小红书" height="28"></a>&nbsp;
-  <a href="https://x.com/xDylanLong"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-%E5%85%B3%E6%B3%A8%E6%88%91-111111?style=for-the-badge&logo=x&logoColor=white&labelColor=111111" alt="X / Twitter" height="28"></a>&nbsp;
-  <a href="https://looda.cc"><img src="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5-looda.cc-4285f4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=4285f4" alt="个人主页 looda.cc" height="28"></a>&nbsp;
-  <a href="https://github.com/helloianneo/ian-xiaohei-illustrations"><img src="https://img.shields.io/badge/%E8%87%B4%E6%95%AC%E5%8E%9F%E4%BB%93%E5%BA%93-Ian%20Xiaohei-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="致敬原仓库" height="28"></a>
+  <a href="https://www.douyin.com/user/MS4wLjABAAAAHH81Iv6MWugNS03rPOnWulSnhRbM26Ud_S16rlgqOfY4nR8bznDSWbFIcviihJJm"><img src="https://img.shields.io/badge/-fe2c55?style=for-the-badge&logo=tiktok&logoColor=white" alt="抖音" height="28"></a>&nbsp;
+  <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212a"><img src="https://img.shields.io/badge/-e60023?style=for-the-badge&logo=xiaohongshu&logoColor=white" alt="小红书" height="28"></a>&nbsp;
+  <a href="https://x.com/xDylanLong"><img src="https://img.shields.io/badge/-111111?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" height="28"></a>&nbsp;
+  <a href="https://looda.cc"><img src="readme-assets/dylanlong-avatar.png" alt="DylanLong 个人主页" width="34" height="34">&nbsp;<strong>DylanLong 个人主页</strong></a>&nbsp;
+  <a href="https://github.com/helloianneo/ian-xiaohei-illustrations"><img src="https://img.shields.io/badge/-181717?style=for-the-badge&logo=github&logoColor=white" alt="致敬原仓库" height="28"></a>
 </p>
-
-<p align="center"><sub><a href="https://www.douyin.com/user/MS4wLjABAAAAHH81Iv6MWugNS03rPOnWulSnhRbM26Ud_S16rlgqOfY4nR8bznDSWbFIcviihJJm">抖音</a> · <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212a">小红书</a> · <a href="https://x.com/xDylanLong">X / Twitter</a> · <a href="https://looda.cc">个人主页</a> · <a href="https://github.com/helloianneo/ian-xiaohei-illustrations">致敬原仓库</a></sub></p>
 
 ---
 
