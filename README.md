@@ -5,11 +5,15 @@
 > 16:9 横版 · 纯白手绘 · 认知锚点 · 可复用隐喻 · Codex Skill
 
 <p align="center">
-  <a href="https://www.douyin.com/user/MS4wLjABAAAAHH81Iv6MWugNS03rPOnWulSnhRbM26Ud_S16rlgqOfY4nR8bznDSWbFIcviihJJm"><img src="https://img.shields.io/badge/-fe2c55?style=for-the-badge&logo=tiktok&logoColor=white" alt="抖音" height="28"></a>&nbsp;
-  <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212a"><img src="https://img.shields.io/badge/-e60023?style=for-the-badge&logo=xiaohongshu&logoColor=white" alt="小红书" height="28"></a>&nbsp;
-  <a href="https://x.com/xDylanLong"><img src="https://img.shields.io/badge/-111111?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" height="28"></a>&nbsp;
-  <a href="https://looda.cc"><img src="readme-assets/dylanlong-avatar.png" alt="DylanLong 个人主页" width="34" height="34">&nbsp;<strong>DylanLong 个人主页</strong></a>&nbsp;
-  <a href="https://github.com/helloianneo/ian-xiaohei-illustrations"><img src="https://img.shields.io/badge/-181717?style=for-the-badge&logo=github&logoColor=white" alt="致敬原仓库" height="28"></a>
+  <a href="https://www.xiaohongshu.com/user/profile/5df3742d000000000100212a"><img src="readme-assets/xiaohongshu.svg" alt="小红书" width="40" height="40"></a>&nbsp;&nbsp;
+  <a href="https://www.douyin.com/user/MS4wLjABAAAAHH81Iv6MWugNS03rPOnWulSnhRbM26Ud_S16rlgqOfY4nR8bznDSWbFIcviihJJm"><img src="readme-assets/douyin.svg" alt="抖音" width="40" height="40"></a>&nbsp;&nbsp;
+  <a href="https://x.com/xDylanLong"><img src="readme-assets/x.svg" alt="X / Twitter" width="40" height="40"></a>
+</p>
+<p align="center">
+  <a href="https://looda.cc">个人主页</a>
+</p>
+<p align="center">
+  致谢 <a href="https://github.com/helloianneo/ian-xiaohei-illustrations">Ian Xiaohei Illustrations 原仓库</a>
 </p>
 
 ---
@@ -26,7 +30,7 @@
 
 ## 小 gecko 是谁
 
-小 gecko 的原型是我的宠物壁虎“小睫毛”。这里的插画角色保留了它的大眼、浅棕色体态和认真观察的气质，再把它转成可以参与产品、内容和生意隐喻的角色。
+小 gecko 是我的宠物壁虎“小睫毛”的插画化形象。
 
 <p align="center">
   <img src="readme-assets/xiaojiewei-original.jpg" alt="我的宠物小睫毛" width="220">
@@ -34,11 +38,15 @@
   <sub>我的宠物“小睫毛”原图</sub>
 </p>
 
-在配图里，小 gecko 是一只奶油白、浅棕斑纹、深色大圆眼、头顶尖轮廓、短小四肢、拖着长尾巴的小角色。
+### 制作你自己的形象
 
-它不会站在画面旁边当贴纸，而是负责做那件解释概念的怪事：锯掉功能堆、拧开内容入口、摇动反馈井、把抽象东西塞进一个能工作的机器里。
+本仓库也提供了一个可选 skill：上传一张三视图替换默认形象，定制属于你自己的配图 skill。
 
-角色参考图在这里：[gecko-reference.png](xiao-gecko-illustrations/assets/gecko-reference.png)。
+<p align="center">
+  <img src="xiao-gecko-illustrations/assets/gecko-reference.png" alt="小 gecko 三视图参考" width="620">
+  <br>
+  <sub>三视图是角色形象的输入，也可以替换成你自己的三视图</sub>
+</p>
 
 ## 三条设计原则
 
@@ -176,6 +184,11 @@ Use $xiao-gecko-illustrations 把这周的内容实验画成一张图：
 ├── README.md
 ├── LICENSE
 ├── NOTICE.md
+├── readme-assets/
+│   ├── douyin.svg
+│   ├── x.svg
+│   ├── xiaohongshu.svg
+│   └── xiaojiewei-original.jpg
 ├── examples/
 │   ├── images/
 │   │   ├── 01-content-entrance-experiment.png
