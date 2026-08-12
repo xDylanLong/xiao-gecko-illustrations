@@ -7,3 +7,8 @@ tmp/
 
 # Workspace-generated output; public demos live under examples/images/.
 /assets/
+
+# Generated illustration and video deliverables.
+/out/
+xiao-gecko-illustrations/assets/*
+!xiao-gecko-illustrations/assets/gecko-reference.png

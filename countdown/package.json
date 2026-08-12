@@ -1,0 +1,22 @@
+{
+  "name": "two-minute-countdown",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts TwoMinuteCountdown ../out/countdown-2m.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.505",
+    "@remotion/cli": "4.0.505",
+    "@remotion/renderer": "4.0.505",
+    "react": "latest",
+    "react-dom": "latest",
+    "remotion": "4.0.505"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "5.9.3"
+  }
+}

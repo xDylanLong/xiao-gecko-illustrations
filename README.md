@@ -58,6 +58,28 @@ Use $custom-character-illustrations。
   <sub>三视图是角色形象的输入，也可以替换成你自己的三视图</sub>
 </p>
 
+### 在一张图中使用多个用户形象
+
+`xiao-gecko-illustrations` 支持运行时传入一个或多个角色，但不会把这些角色内置到 skill。每个角色都由用户在当前任务中上传参考图，或提供可读取的本地路径；参考图只用于当前生成，不会被复制进仓库。
+
+```text
+Use $xiao-gecko-illustrations 生成一张中文正文配图。
+
+characters:
+- name: 大壁虎
+  reference: 我本轮上传的三视图
+  role: 对话对象
+  visual_anchors: 白色身体、橙色斑点、直立姿态、长尾巴
+- name: 另一位角色
+  reference: 我本轮上传的另一张参考图
+  role: 讲解者
+  visual_anchors: 以该参考图为准
+
+scene: 两个角色面对面讨论一个商业判断；保留各自身份，不要融合或增加未输入的角色。
+```
+
+如果不提供 `characters`，skill 才使用仓库自带的默认小 gecko。需要让默认小 gecko 与用户角色同场时，要在参数中明确把它列入场景。
+
 ## 三条设计原则
 
 ### 1. 一张图只讲一个动作
