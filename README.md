@@ -58,16 +58,28 @@ Use $custom-character-illustrations。
   <sub>三视图是角色形象的输入，也可以替换成你自己的三视图</sub>
 </p>
 
+### 当前可引用的第二个角色：小壁虎
+
+项目另外保存了一个独立角色“小壁虎”的三视图参考。它不会替换默认“小 gecko”，后续生成时可通过本地路径显式传入：
+
+`/Users/thawingx/Documents/xiao-gecko-illustrations/character-references/xiaobihu-reference.png`
+
+<p align="center">
+  <img src="character-references/xiaobihu-reference.png" alt="小壁虎三视图参考" width="460">
+  <br>
+  <sub>小壁虎三视图参考：灰白身体、橙色斑点、金色竖瞳、宽嘴和长尾巴</sub>
+</p>
+
 ### 在一张图中使用多个用户形象
 
-`xiao-gecko-illustrations` 支持运行时传入一个或多个角色，但不会把这些角色内置到 skill。每个角色都由用户在当前任务中上传参考图，或提供可读取的本地路径；参考图只用于当前生成，不会被复制进仓库。
+`xiao-gecko-illustrations` 支持运行时传入一个或多个角色，但不会在未明确指定时自动加入这些角色。角色可以由用户在当前任务中上传，也可以引用项目里已保存的本地参考图；未传入 `characters` 时仍使用默认小 gecko。
 
 ```text
 Use $xiao-gecko-illustrations 生成一张中文正文配图。
 
 characters:
-- name: 大壁虎
-  reference: 我本轮上传的三视图
+- name: 小壁虎
+  reference: /Users/thawingx/Documents/xiao-gecko-illustrations/character-references/xiaobihu-reference.png
   role: 对话对象
   visual_anchors: 白色身体、橙色斑点、直立姿态、长尾巴
 - name: 另一位角色
