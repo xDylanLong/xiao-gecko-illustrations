@@ -1,6 +1,6 @@
-# 小gecko 配图
+# 小睫毛配图
 
-> 一只奶油色 gecko，专门把中文内容里的抽象判断，变成读者一眼能看懂的怪诞手绘图。
+> 一只奶油色小睫毛，专门把中文内容里的抽象判断，变成读者一眼能看懂的怪诞手绘图。
 >
 > 16:9 横版 · 纯白手绘 · 认知锚点 · 可复用隐喻 · Codex Skill
 
@@ -20,15 +20,15 @@
 
 ## 致谢
 
-感谢 [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) 公开分享中文正文配图的工作方法和实践。小gecko 配图在此基础上继续探索自己的角色、内容场景和视觉资产。
+感谢 [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) 公开分享中文正文配图的工作方法和实践。小睫毛配图在此基础上继续探索自己的角色、内容场景和视觉资产。
 
 ## 它解决什么问题
 
 很多内容配图的问题不是“画得不够漂亮”，而是没有把文章里真正重要的那一下画出来：一个判断、一个断点、一个转折，或者一条从想法走到结果的路径。
 
-小gecko 配图让 AI 先找出那个认知锚点，再为它发明一个低科技、奇怪但成立的物理隐喻。最终输出不是课程页，也不是一堆节点，而是一张读者看一眼就能进入正文的手绘图。
+小睫毛配图让 AI 先找出那个认知锚点，再为它发明一个低科技、奇怪但成立的物理隐喻。最终输出不是课程页，也不是一堆节点，而是一张读者看一眼就能进入正文的手绘图。
 
-## 小 gecko 是谁
+## 小睫毛是谁
 
 小 gecko 是我的宠物壁虎“小睫毛”的插画化形象。
 
@@ -53,33 +53,33 @@ Use $custom-character-illustrations。
 ```
 
 <p align="center">
-  <img src="xiao-gecko-illustrations/assets/gecko-reference.png" alt="小 gecko 三视图参考" width="460">
+  <img src="xiao-gecko-illustrations/assets/gecko-reference.png" alt="小睫毛三视图参考" width="460">
   <br>
   <sub>三视图是角色形象的输入，也可以替换成你自己的三视图</sub>
 </p>
 
-### 当前可引用的第二个角色：小壁虎
+### 当前可引用的第二个角色：小溪流
 
-项目另外保存了一个独立角色“小壁虎”的三视图参考。它不会替换默认“小 gecko”，后续生成时可通过本地路径显式传入：
+项目另外保存了一个独立角色“小溪流”的三视图参考。它不会替换默认“小睫毛”，后续生成时可通过本地路径显式传入：
 
-`/Users/thawingx/Documents/xiao-gecko-illustrations/character-references/xiaobihu-reference.png`
+`/Users/thawingx/.codex/skills/xiao-gecko-illustrations/character-references/xiaoxiliu-reference.png`
 
 <p align="center">
-  <img src="character-references/xiaobihu-reference.png" alt="小壁虎三视图参考" width="460">
+  <img src="character-references/xiaoxiliu-reference.png" alt="小溪流三视图参考" width="460">
   <br>
-  <sub>小壁虎三视图参考：灰白身体、橙色斑点、金色竖瞳、宽嘴和长尾巴</sub>
+  <sub>小溪流三视图参考：灰白身体、橙色斑点、金色竖瞳、宽嘴和长尾巴</sub>
 </p>
 
 ### 在一张图中使用多个用户形象
 
-`xiao-gecko-illustrations` 支持运行时传入一个或多个角色，但不会在未明确指定时自动加入这些角色。角色可以由用户在当前任务中上传，也可以引用项目里已保存的本地参考图；未传入 `characters` 时仍使用默认小 gecko。
+`xiao-gecko-illustrations` 支持运行时传入一个或多个角色，但不会在未明确指定时自动加入这些角色。角色可以由用户在当前任务中上传，也可以引用项目里已保存的本地参考图；未传入 `characters` 时仍使用默认小睫毛。
 
 ```text
 Use $xiao-gecko-illustrations 生成一张中文正文配图。
 
 characters:
-- name: 小壁虎
-  reference: /Users/thawingx/Documents/xiao-gecko-illustrations/character-references/xiaobihu-reference.png
+- name: 小溪流
+  reference: /Users/thawingx/.codex/skills/xiao-gecko-illustrations/character-references/xiaoxiliu-reference.png
   role: 对话对象
   visual_anchors: 白色身体、橙色斑点、直立姿态、长尾巴
 - name: 另一位角色
@@ -90,7 +90,7 @@ characters:
 scene: 两个角色面对面讨论一个商业判断；保留各自身份，不要融合或增加未输入的角色。
 ```
 
-如果不提供 `characters`，skill 才使用仓库自带的默认小 gecko。需要让默认小 gecko 与用户角色同场时，要在参数中明确把它列入场景。
+如果不提供 `characters`，skill 才使用仓库自带的默认小睫毛。需要让默认小睫毛与用户角色同场时，要在参数中明确把它列入场景。
 
 ## 三条设计原则
 
@@ -100,7 +100,7 @@ scene: 两个角色面对面讨论一个商业判断；保留各自身份，不�
 
 ### 2. 角色必须参与运转
 
-如果去掉小 gecko，画面仍然完全成立，说明角色只是装饰。小 gecko 要推、拉、拧、扛、修、捞、记录，或者认真地卡在某个系统里。
+如果去掉小睫毛，画面仍然完全成立，说明角色只是装饰。小睫毛要推、拉、拧、扛、修、捞、记录，或者认真地卡在某个系统里。
 
 ### 3. 怪，但要在一秒内看懂
 

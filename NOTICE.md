@@ -1,10 +1,10 @@
 # Notice
 
-小gecko 配图是一个面向 Codex 的 AI-agent skill，基于 Ian Xiaohei Illustrations 的工作方法进行角色替换和再设计。
+小睫毛配图是一个面向 Codex 的 AI-agent skill，基于 Ian Xiaohei Illustrations 的工作方法进行角色替换和再设计。
 
 本项目保留了原方法中的部分通用原则：先提炼正文认知锚点、每张图只表达一个核心结构、使用纯白手绘留白、让角色承担核心动作，以及生成后进行 QA 检查。
 
-本项目的默认角色“小 gecko”、三视图参考图和 README 中的 demo 图由本项目作者提供或生成。三视图角色参考图位于 `xiao-gecko-illustrations/assets/gecko-reference.png`。
+本项目的默认角色“小睫毛”、三视图参考图和 README 中的 demo 图由本项目作者提供或生成。三视图角色参考图位于 `xiao-gecko-illustrations/assets/gecko-reference.png`。
 
 原始方法参考：
 
