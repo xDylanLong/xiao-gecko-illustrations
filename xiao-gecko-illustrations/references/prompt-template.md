@@ -45,7 +45,47 @@ If this is a concept-definition asset:
 {居中大标题为“X 是什么？”或“X 模型是什么？”。下方承载 2-4 组短句，解释定义、组成、彼此关系或熟悉落点；如果有多个用户角色，让每个角色共同参与定义关系；如果确认方案写“无需形象”，不要额外加入角色。}
 
 Structure type:
-{Workflow / 系统局部 / 前后对比 / 角色状态 / 概念隐喻 / 方法分层 / 地图路线 / 小漫画分镜 / 过渡页}
+{Workflow / 系统局部 / 前后对比 / 角色状态 / 概念隐喻 / 方法分层 / 问题树 / 因果链 / 决策树 / 2×2 矩阵 / 思维框架 / 系统关系图 / 地图路线 / 时间线 / 小漫画分镜 / 示意图表 / 过渡页}
+
+If this is a schematic chart / data-relation asset:
+Chart intent: {趋势 / 对比 / 排名 / 比例 / 分布 / 流向；只选一个}
+Accuracy mode: 示意关系，不要求精确数值；保留口播支持的方向、排序和大致差距；没有来源的数字不写成可核对的精确值。
+Chart reading path: {观众第一眼应该看懂的唯一关系}
+Labels: {最多 3-5 个短标签；必要时使用“少 / 多 / 上升 / 下滑 / 示意关系”}
+Visual treatment: {手绘曲线 / 对比柱 / 比例块 / 排名台阶 / 稀疏点群 / 漏斗 / 管道；只选一种}
+Character action: {小睫毛如何拉动、称量、搬运、指向、拨开或阻挡这组关系}
+Avoid: dense axes, gridlines, detached legends, dashboard panels, fake precision, formal PPT chart, or a chart that becomes background decoration.
+
+如果用户点名图表类型，或要求更多数据，改用“示意数据图表”字段：
+
+```text
+素材类型：示意数据图表
+Chart type：饼图 / 环形图 / 折线图 / 柱状图 / 堆叠柱 / 分组柱 / 散点图 / 漏斗图
+Data structure：类别、时间点或阶段，以及一组内部一致的示意数据
+Data fidelity：示意数据，不代表真实统计；保留口播需要的方向、排序和主要差距
+Visual grammar：坐标轴、刻度、图例、数据标签、扇区比例、点线连接或堆叠层级
+Chart reading path：观众先看哪里，再比较什么，最后得到什么结论
+Labels：标题、类别、数值、单位、图例和“示意数据”标识
+Type label：顶部居中或白板标题区明确写出“饼图｜示意数据 / 折线图｜示意数据 / 柱状图｜示意数据”等标准图表名称；不放左上角，不替代主题标题
+Character action：小睫毛指向、测量、圈出或解释关键数据，不遮挡图表主体
+Avoid：抽象色块、缺少图表骨架、精确统计口吻、密集仪表盘、PPT模板
+```
+
+如果这是思维模型、问题拆解或框架解释素材，读取 `references/model-library.md`，并补充：
+
+```text
+素材类型：思维模型 / 问题拆解 / 决策框架 / 因果解释 / 方法框架
+Model：模型名称；若用户未指定，写选用的模型和选择理由
+Model fidelity：标准结构 / 内容适配结构 / 示意框架
+Core task：拆问题 / 找根因 / 解释因果 / 做选择 / 排优先级 / 解释组成 / 说明循环 / 复盘改进
+Nodes and relations：节点、分支、层级、方向、轴或循环关系；默认 3-6 个核心节点
+Reading path：观众先看什么，再沿什么关系读到什么结论
+Visual grammar：问题树 / 岔路门 / 因果链 / 回路 / 2×2 象限 / 阶梯 / 抽屉 / 系统连线 / 时间线
+Character action：小睫毛如何挖、连、开、搬、搭、修或指向结构
+Labels：模型名、节点短句、关键结论；不要把逐字稿缩进框里
+Type label：顶部居中或白板标题区明确写出“问题树｜示意框架 / PDCA｜示意框架 / 2×2 矩阵｜示意框架”等标准模型名称；模型名称与主题标题分开，不放左上角
+Avoid：装饰性思维导图、节点过多、未经支持的结论、标准PPT、复杂架构图
+```
 
 Core idea:
 {这张图要表达的核心意思}
@@ -80,6 +120,7 @@ Black or dark brown for line art and the supplied characters. Orange for the mai
 
 Constraints:
 One image explains only one core structure or one local point in a multi-asset group. Plan by semantic sentence units and information density, not by punctuation. Any shot that is not a summary, planning, process, or high-density transition shot, or that is labeled low-density, defaults to one sentence and may cover at most two short sentences with the same cognitive action; never let one low-information image cover three or more sentences or 20-30 seconds of narration. High-density summary, planning, process, or transition shots may cover 3-6 sentences or more only when the visual shows the shared relation. One sentence maps to exactly one asset, and no sentence may be split across assets. Hook assets are always separate from body assets; each Hook sentence gets its own Hook asset, and a Hook must create visible tension through an unresolved question, contrast, obstacle, threshold, or clear promise. Do not merge Hook narration with body narration or use a calm topic card as the Hook. Split only when a new judgment, object, action, result, or visual answer begins; do not split merely because a comma, colon, semicolon, or transition word appears. Summary whiteboard explanation shots make the board the main subject and may contain substantially more structured text, but must remain scannable and not become a verbatim script or dense course slide. Keep the board visually dominant and the supplied character(s) clearly pointing to or acting on it. Use at most 5-8 short handwritten Chinese labels for ordinary shots; for a summary whiteboard shot, use 6-12 short phrase blocks or 3-5 grouped sections that show the actual conclusion, relation, transition result, and final takeaway. Do not write a title in the top-left corner. Do not write the structure type on the image. Do not make it a formal diagram, course slide, dense explainer, black mascot, generic lizard, frog, dinosaur, cat, dragon, or realistic reptile unless that exact character was supplied by the user as a runtime reference. Do not copy prior examples; invent a fresh visual metaphor for this specific article.
+For a schematic chart asset, make the relationship readable before any label is read. Approximate visual scale is allowed, but the direction, ordering, and major contrast must agree with the narration. Omit exact values when they are not needed; never invent precise numbers, ticks, units, or a statistical-looking legend merely to make the image look complete. Keep the chart inside the hand-drawn scene and make the supplied character act on the relationship.
 A transition page is a standalone module-entry asset, not a Hook: use it only when a new topic, definition, example, argument, or explanation begins; ordinary transition words alone do not create one. Its single character must interact with one large centered title taken from the entry narration, while the next body asset carries the detailed content.
 For a multi-asset group, the storyboard role and cognitive task of every asset must be unique. Compare neighboring assets before generation and again after generation. Two assets are duplicates if they express the same conclusion, the same input-output relationship, the same failure state, or the same solution action, even when colors, labels, or surface objects differ. A visual reskin is not a new storyboard. If any duplicate remains, merge or regenerate before delivery.
 ```
